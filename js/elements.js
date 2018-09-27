@@ -1,6 +1,7 @@
 function Node(posicao, tamanho, tipo) {
     this.x = posicao.x;
     this.y = posicao.y;
+    this.tamanho = tamanho;
 
     this.node = document.createElement("div");
     this.node.style.height = tamanho.height + 'px';
