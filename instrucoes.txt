@@ -1,3 +1,9 @@
 Instruções do jogo 2d-flee-the-ball
 
+<<<<<<< HEAD
 << Controle: Utilize as setas ou controles para movimentar-se pela tela. >>
+=======
+Modo de execução: Abra o arquivo index.html em seu browser.
+
+Controle: Utilize as setas ou controles para movimentar-se pela tela.
+>>>>>>> Inserido modo de execução do jogo.
