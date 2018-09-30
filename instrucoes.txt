@@ -1,1 +1,3 @@
 Instruções do jogo 2d-flee-the-ball
+
+Controle: Utilize as setas ou controles para movimentar-se pela tela.
