@@ -2,6 +2,7 @@
     background-color: green;
     border-radius: 50%;
     position: relative;
+    z-index: 1;
 }
 
 .enemy{
