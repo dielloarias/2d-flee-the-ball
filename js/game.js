@@ -28,12 +28,14 @@ function criaInimigos(gameContainer, jogador, quantidade){
 }
 
 let gameContainer = document.querySelector("#game-container");
-let tamanho = {};
-    tamanho.width = gameContainer.offsetWidth / 50;
-    tamanho.height = gameContainer.offsetHeight / 50;
+let containerSize = {};
+    containerSize.width = gameContainer.offsetWidth / 50;
+    containerSize.height = gameContainer.offsetHeight / 50;
 
     
-let jogador = new Node({ x: getRandomInteger(0, 49), y: getRandomInteger(0, 49) }, tamanho, 'player');
+let playerSize = { x: getRandomInteger(0, 49), y: getRandomInteger(0, 49) };
+let jogador = new Node(playerSize, containerSize, 'player');
+
 novoElemento(gameContainer, jogador);
 
 criaInimigos(gameContainer, jogador);
